@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Домашка Гипсолит</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- хедер первый экран-->
+    <main class="main">
+        <div class="container">
+            <div class="header">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-5">
+                        <div class="logo">
+                            <img src="img/logo.png" alt="logotip">
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6 col-md-4 col-sm-4 phone">
+                        <a class="phone-link" href="#">+7 495 771 05 08</a>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-4 col-sm-3 button-box">
+                        <button class="button header-btn popup-btn">получить консультацию</button>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="row">
+                    <div class=" col-xl-6 col-lg-6 col-md-12">
+                        <div class="main-title">
+                            <h1>Автоматизированная штукатурка стен</h1>
+                            <p class="main-subtitle">Идеально ровные стены <br>в кратчайшие сроки</p>
+                            <span>Стоимость работ <br> от <strong>300</strong> руб/м<sup>2</sup></span>
+                            <strong class="main-trigger">Оплата по факту!</strong>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-8 offset-2 col-8">
+                        <div class="main-form">
+                            <h2>Для расчёта точной стоимости <br>закажите <strong>выезд замерщика</strong></h2>
+                            <form class="form" action="#">
+                                <label for="#">Ваше имя</label>
+                                <input class="form-input" type="text">
+                                <label for="#">Номер телефона</label>
+                                <input class="form-input" type="text">
+                                <button class="button form-btn" type="button">Оставьте заявку</button>
+                                <small>Приедем в день обращения*</small>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Преимущества работы с нами -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-header">Преимущества работы с нами</h2>
+            <div class="features-slider">
+                <div class="features-block">
+                    <div class="features-img">
+                        <picture>
+                            <source srcset="img/features/coin.svg" type="image/">
+                            <img src="img/features/coin.png" alt="Платите по факту">
+                        </picture>
+                    </div>
+                    <h3>Платите по факту</h3>
+                    <p>Вы оплачиваете выполненные работы только после их выполнения. Никаких скрытых доплат и промежуточных платежей.
+                    </p>
+                </div>
+                <div class="features-block">
+                    <div class="features-img">
+                        <picture>
+                            <source srcset="img/features/folder.svg" type="image/">
+                            <img src="img/features/folder.png" alt="Заключаем договор">
+                        </picture>
+                    </div>
+                    <h3>Заключаем договор</h3>
+                    <p>Перед началом работ заключаем договор на юридическое лицо. Вы можете быть уверены, что все обязательства будут выполнены.
+                    </p>
+                </div>
+                <div class="features-block">
+                    <div class="features-img">
+                        <picture>
+                            <source srcset="img/features/clock.svg" type="image/">
+                            <img src="img/features/clock.png" alt="Точно в срок">
+                        </picture>
+                    </div>
+                    <h3>Точно в срок</h3>
+                    <p>Работаем строго по установленным срокам, которые прописаны в договоре. Если не успеваем, Вы платите меньше</p>
+                </div>
+                <div class="features-block">
+                    <div class="features-img">
+                        <picture>
+                            <source srcset="img/features/piggy-bank" type="image/">
+                            <img src="img/features/piggy-bank.png" alt="Экономите на материалах">
+                        </picture>
+                    </div>
+                    <h3>Экономите на материалах</h3>
+                    <p>Мы являемся структурным подразделением компании поставщика строительных смесей <a href="#">gicema.ru</a> и даём Вам самые выгодные цены.
+                        </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- секция Цены -->
+    <section class="price">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 offset-md-4">
+                    <div class="price-header">
+                        <h2>Цены</h2>
+                        <span>Выберите вариант, который подходит Вам:</span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="price-button">
+                        <button class="button price-header-btn" data-toggle="modal">Рассчитать точую стоимость</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 price-box">
+                    <div class="box-cart">
+                        <h4>Штукатурка вашим материалом</h4>
+                        <img src="img/price-img-1.jpg" alt="Штукатурка вашим материалом">
+                        <p>от 300 руб/м<sup>2</sup></p>
+                        <ul class="box-cart-list">
+                            <li>Проведение работ</li>
+                            <li>Уборка</li>
+                        </ul>
+                        <button class="button" type="button">Заказать</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box-cart price-box">
+                        <h4>Штукатурка под шпаклёвку</h4>
+                        <img src="img/price-img-2.jpg" alt="Штукатурка под шпаклёвку">
+                        <p>от 530 руб/м<sup>2</sup></p>
+                        <ul class="box-cart-list">
+                            <li>Завоз материала и его подъём</li>
+                            <li>Проведение работ</li>
+                            <li>Уборка</li>
+                            <li>Гарантия 2 года</li>
+                        </ul>
+                        <button class="button" type="button">Заказать</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box-cart price-box">
+                        <h4>Штукатурка вашим материалом</h4>
+                        <img src="img/price-img-3.jpg" alt="Штукатурка вашим материалом">
+                        <p>от 560 руб/м<sup>2</sup></p>
+                        <ul class="box-cart-list">
+                            <li>Завоз материала и его подъём</li>
+                            <li>Проведение работ</li>
+                            <li>Уборка</li>
+                            <li>Гарантия 2 года</li>
+                            <li>Можно сразу клеить обои</li>
+                            
+                        </ul>
+                        <button class="button" type="button">Заказать</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </section>
+    <!-- секция отзывы -->
+    <section class="feedback">
+        <div class="container">
+            <h2 class="section-header">Отзывы</h2>
+            <div class="feedback-slider">
+                <div class="feedback-slider-item">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="fotorama" data-width="100%" data-nav="thumbs">
+                                <img src="img/feedback-01.jpg" alt="">
+                                <img src="img/feedback-02.jpg" alt="">
+                                <img src="img/feedback-03.jpg" alt="">
+                                <img src="img/feedback-04.jpg" alt="">
+                                <img src="img/feedback-05.jpg" alt="">
+                                <img src="img/feedback-06.jpg" alt="">
+                                <img src="img/feedback-07.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>Объект: г.Москва, Нахимовский проспект д.10</p>
+                            <p>Площадь: <strong>357 м<sup>2</sup></strong></p>
+                            <p>Выполнен за: <strong>10 дней</strong></p>
+                            <p>Стоимость: <strong>550 рублей за квадратный метр</strong></p>
+                            <p>Особенности: <strong>перепады неровности стен достигали до 6 см</strong></p>
+                            <div class="media feedback-media">
+                                <img src="img/avatar.png" class="mr-3" alt="...">
+                                <div class="media-body">
+                                    <span>Заказчик</span>
+                                    <h5 class="mt-0">Нахимов Артем</h5>
+                                </div>
+                            </div>
+                            <p class="feedback-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, cumque maiores. Non quam ipsam optio blanditiis sunt consequuntur doloribus, dolorem fugit mollitia vitae tenetur necessitatibus, eum voluptatum. Deserunt, tempora eum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feedback-slider-item">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="fotorama" data-width="100%" data-nav="thumbs">
+                                <img src="img/feedback-01.jpg" alt="">
+                                <img src="img/feedback-02.jpg" alt="">
+                                <img src="img/feedback-03.jpg" alt="">
+                                <img src="img/feedback-04.jpg" alt="">
+                                <img src="img/feedback-05.jpg" alt="">
+                                <img src="img/feedback-06.jpg" alt="">
+                                <img src="img/feedback-07.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>Объект: г.Москва, Нахимовский проспект д.10</p>
+                            <p>Площадь: <strong>357 м<sup>2</sup></strong></p>
+                            <p>Выполнен за: <strong>10 дней</strong></p>
+                            <p>Стоимость: <strong>550 рублей за квадратный метр</strong></p>
+                            <p>Особенности: <strong>перепады неровности стен достигали до 6 см</strong></p>
+                            <div class="media feedback-media">
+                                <img src="img/avatar.png" class="mr-3" alt="...">
+                                <div class="media-body">
+                                    <span>Заказчик</span>
+                                    <h5 class="mt-0">Нахимов Артем</h5>
+                                </div>
+                            </div>
+                            <p class="feedback-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, cumque maiores. Non quam ipsam optio blanditiis sunt consequuntur doloribus, dolorem fugit mollitia vitae tenetur necessitatibus, eum voluptatum. Deserunt, tempora eum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feedback-slider-item">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="fotorama" data-width="100%" data-nav="thumbs">
+                                <img src="img/feedback-01.jpg" alt="">
+                                <img src="img/feedback-02.jpg" alt="">
+                                <img src="img/feedback-03.jpg" alt="">
+                                <img src="img/feedback-04.jpg" alt="">
+                                <img src="img/feedback-05.jpg" alt="">
+                                <img src="img/feedback-06.jpg" alt="">
+                                <img src="img/feedback-07.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>Объект: г.Москва, Нахимовский проспект д.10</p>
+                            <p>Площадь: <strong>357 м<sup>2</sup></strong></p>
+                            <p>Выполнен за: <strong>10 дней</strong></p>
+                            <p>Стоимость: <strong>550 рублей за квадратный метр</strong></p>
+                            <p>Особенности: <strong>перепады неровности стен достигали до 6 см</strong></p>
+                            <div class="media feedback-media">
+                                <img src="img/avatar.png" class="mr-3" alt="...">
+                                <div class="media-body">
+                                    <span>Заказчик</span>
+                                    <h5 class="mt-0">Нахимов Артем</h5>
+                                </div>
+                            </div>
+                            <p class="feedback-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, cumque maiores. Non quam ipsam optio blanditiis sunt consequuntur doloribus, dolorem fugit mollitia vitae tenetur necessitatibus, eum voluptatum. Deserunt, tempora eum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">   <!-- отзывы форма -->
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="feedback-form">
+                        <h3>Хотите так же? Оставьте Ваши контактные данные</h3>
+                        <form class="form" action="#">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <label for="#">Ваше имя</label>
+                                    <input class="form-input" type="text">
+                                </div>
+                                <div class="col-lg-6">
+                                    <label for="#">Номер телефона</label>
+                                    <input class="form-input" type="text">
+                                </div>
+                            </div>
+                            <button class="button feedback-btn form-btn" type="button">Оставьте заявку</button>
+                        </form>
+                    </div>
+                </div>
+            </div> 
+            
+        </div>  
+        <img class="hand" src="img/hand-bg.png" alt="">
+    </section>
+    <!-- Схема работы -->
+    <section class="schema">
+        <div class="container">
+            <h2 class="schema-header">Схема работы</h2>
+            <p class="schema-subheader">Работа над вашим объектом будет включать в себя следующие этапы:</p>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <img src="img/schema-1.png" alt="Заявка">
+                    <h3>Заявка</h3>
+                    <p>Оставляете онлайн заявку или звоните +7 495 771 05 08</p>
+                </div>
+                <div class="col-lg-3 offset-lg-1 col-sm-6 offset-sm-0">
+                    <img src="img/schema-2.png" alt="Выезд специалиста">
+                    <h3>Выезд специалиста</h3>
+                    <p>В течение 1 рабочего дня к Вам приезжает специалист, который выполнит замеры для точной стоимости работ</p>
+                </div>
+                <div class="col-lg-3 offset-lg-1 col-sm-6 offset-sm-0">
+                    <img src="img/schema-3.png" alt="Составление договора">
+                    <h3>Составление договора</h3>
+                    <p>Готовим договор и согласовываем с Вами</p>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <img src="img/schema-4.png" alt="Начало работ">
+                    <h3>Начало работ</h3>
+                    <p>Доставляем материалы, оборудование, подписываем договор и начинаем работы</p>
+                </div>
+                <div class="col-lg-3 offset-lg-1 col-sm-6 offset-sm-0">
+                    <img src="img/schema-5.png" alt="Завершение работ">
+                    <h3>Завершение работ</h3>
+                    <p>После окончания работ Вы проверяете качество и подписываете акт сдачи, производите оплату.</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <!-- Все на 100% включено! -->
+    <section class="allinclusive">
+        <div class="container">
+            <div class="allinclusive-header">
+            <h2>Все на 100% включено</h2>
+            <p>При выполнении работ с нашим материалом в стоимость входит:</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="media">
+                        <span class="circle-border">
+                            <span class="circle">1.</span>
+                        </span>
+                        <div class="media-body">
+                          <h4>Материал:</h4>
+                          <p>штукатурка, грунтовка или бетоноконтакт, маяки, сетка на стыки</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="media">
+                        <span class="circle-border">
+                            <span class="circle">1.</span>
+                        </span>
+                        <div class="media-body">
+                          <h4>Доставка оборудования и материала на объект</h4>
+                          <p></p>
+                        </div>
+                    </div>
+                </div><div class="col-lg-3 col-md-6">
+                    <div class="media">
+                        <span class="circle-border">
+                            <span class="circle">1.</span>
+                        </span>
+                        <div class="media-body">
+                          <h4>Подготовка поверхности</h4>
+                          <p>(очистка, грунтование)</p>
+                        </div>
+                    </div>
+                </div><div class="col-lg-3 col-md-6">
+                    <div class="media">
+                        <span class="circle-border">
+                            <span class="circle">1.</span>
+                        </span>
+                        <div class="media-body">
+                          <h4>Установка маяков</h4>
+                          <p></p>
+                        </div>
+                    </div>
+                </div><div class="col-lg-3 col-md-6">
+                    <div class="media">
+                        <span class="circle-border">
+                            <span class="circle">1.</span>
+                        </span>
+                        <div class="media-body">
+                          <h4>Оштукатуривание поверхности</h4>
+                          <p></p>
+                        </div>
+                    </div>
+                </div><div class="col-lg-3 col-md-6">
+                    <div class="media">
+                        <span class="circle-border">
+                            <span class="circle">1.</span>
+                        </span>
+                        <div class="media-body">
+                          <h4>Удаление маяков</h4>
+                          <p></p>
+                        </div>
+                    </div>
+                </div><div class="col-lg-3 col-md-6">
+                    <div class="media">
+                        <span class="circle-border">
+                            <span class="circle">1.</span>
+                        </span>
+                        <div class="media-body">
+                          <h4>Глянцевание</h4>
+                          <p></p>
+                        </div>
+                    </div>
+                </div><div class="col-lg-3 col-md-6">
+                    <div class="media">
+                        <span class="circle-border">
+                            <span class="circle">1.</span>
+                        </span>
+                        <div class="media-body">
+                          <h4>Уборка и вывоз мусора</h4>
+                          <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- опасения -->
+    <section class="danger">
+        <div class="container">
+            <div class="danger-header">
+                <h2>Мы развеем все опасения</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="danger-box-left">
+                        <h3>Какие могут быть проблемы:</h3>
+                        <ul>
+                            <li><img src="img/cross.png">Стены и углы будут неровными</li>
+                            <li><img src="img/cross.png">Ремонт затянется на долгие месяцы</li>
+                            <li><img src="img/cross.png">Сложности с доставкой и разгрузкой материалов</li>
+                            <li><img src="img/cross.png">Останется мусор и пыль после работ</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-5 offset-lg-2">
+                    <div class="danger-box-right">
+                        <h3>Наше решение:</h3>
+                        <ul>
+                            <li><img src="img/check.png">Высокая квалификация специалистов + минимум 5 летний опыт работы = идеально ровные поверхности</li>
+                            <li><img src="img/check.png">Соблюдаем сроки, которые прописаны в договоре. На квартиру площадью 135 м2 уходит от 3 до 5 дней</li>
+                            <li><img src="img/check.png">Доставка материала и подъём бесплатно</li>
+                            <li><img src="img/check.png">Убираем и вывозим мусор после работ</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="img/girl-bg.png" alt="" class="danger-girl">
+
+    </section>
+    <!-- материалы -->
+    <section class="materials">
+        <div class="container">
+            <div class="materials-header">
+                <h2>Материалы</h2>
+                <p>Мы работаем только качественными, проверенными временем материалами, следующих производителей:</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="materials-cart">
+                        <img src="img/knauf.png" alt="">
+                        <h3>Knauf</h3>
+                        <span>МП-75 <strong>245</strong> руб/мешок</span>
+                        <div>
+                        <a class="materials-link" href="#">Сертификат</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="materials-cart">
+                        <img src="img/volma.png" alt="">
+                        <h3>volma</h3>
+                        <span>Аква слой <strong>245</strong> руб/мешок<br>Гипс актив <strong>245</strong> руб/мешок</span>
+                        <div>
+                            <a class="materials-link" href="#">Сертификат</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="materials-cart">
+                        <img src="img/forman.png" alt="">
+                        <h3>Forman</h3>
+                        <span>Аква слой <strong>245</strong> руб/мешок<br>Гипс актив <strong>245</strong> руб/мешок</span>
+                        <div>
+                            <a class="materials-link" href="#">Сертификат</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="materials-cart">
+                        <img src="img/ceresit.png" alt="">
+                        <h3>Ceresit</h3>
+                        <span>Аква слой <strong>245</strong> руб/мешок<br>Гипс актив <strong>245</strong> руб/мешок</span>
+                        <div>
+                            <a class="materials-link" href="#">Сертификат</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>Вы можете приобрести материалы по оптовым ценам на сайте <a class="materials-link" href="#">gicema.ru</a> или по телефону <strong>+7 495 790 69 90</strong></p>
+        </div>
+
+    </section>
+    <!-- посмотрите как мы работаем -->
+    <section class="work">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="work-header">
+                        <h2>Посмотрите<br>как мы работаем</h2>
+                        <p>Хотите удостовериться в профессионализме<br>наших сотрудников?</p>
+                        <span>Вы можете сделать это, приехав на один из наших объектов, и понаблюдав за ходом работ. Увидите оборудование, материалы и качество исполнения.</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 offset-lg-3">
+                    <div class="main-form">
+                        <h3>Оставьте контактные данные для связи</h3>
+                        <form class="form" action="#">
+                            <label for="#">Ваше имя</label>
+                            <input class="form-input" type="text">
+                            <label for="#">Номер телефона</label>
+                            <input class="form-input" type="text">
+                            <button class="button form-btn" type="button">записаться на просмотр</button>
+                            <small>Подберем ближайщий к вам объект</small>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="uppsell">
+        <div class="container">
+            <div class="uppsell-header">
+                <h2>Дополнительные услуги</h2>
+                <p>Помимо штукатурных рыбот Вы можете заказать у нас следующие услуги</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="uppsell-box">
+                        <img src="img/dop-us1.jpg" alt="">
+                        <h4>Монтаж электропроводки</h4>
+                        <bottom class="button uppsell-btn">цены</bottom>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="uppsell-box">
+                        <img src="img/dop-us2.jpg" alt="">
+                        <h4>Стяжка пола</h4>
+                        <bottom class="button uppsell-btn">цены</bottom>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="uppsell-box">
+                        <img src="img/dop-us3.jpg" alt="">
+                        <h4>Сантехнические работы</h4>
+                        <bottom class="button uppsell-btn">цены</bottom>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Контакты</h2>
+                    <p>Адрес офиса:<br>Москва, копейское шоссе, 12, офис 34</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2257.8171932294226!2d37.06425109921904!3d55.53555339157464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46caa852637a32ff%3A0xafb7e07a2ab0ea58!2z0JrQuNC10LLRgdC60L7QtSDRiC4sIDEyLCAzNCwg0JDQv9GA0LXQu9C10LLQutCwLCDQnNC-0YHQutC-0LLRgdC60LDRjyDQvtCx0LsuLCDQoNC-0YHRgdC40Y8sIDE0MzM2Mg!5e0!3m2!1sru!2sua!4v1596542157008!5m2!1sru!2sua" width="550" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <p>Номер телефона:<br><strong>+7 495 771 05 08</strong></p>
+                    <p>E-mail:<br><a href="mailto:#">order@gipsolit.ru</a></p>
+                    <p>Реквизиты:<br>ИНН 35453453 ОГРН 34234234</p>
+                </div>
+                <div class="col-lg-4 offset-lg-2">
+                    <div class="main-form">
+                        <h3>Оставьте контактные данные для связи</h3>
+                        <form class="form" action="#">
+                            <label for="#">Ваше имя</label>
+                            <input class="form-input" type="text">
+                            <label for="#">Номер телефона</label>
+                            <input class="form-input" type="text">
+                            <label for="#">E-mail</label>
+                            <input class="form-input" type="text">
+                            <label for="#">Сообщение</label>
+                            <input class="form-input" type="text">
+                            <button class="button form-btn" type="button">записаться на просмотр</button>
+                            <small>Подберем ближайщий к вам объект</small>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="footer-logo">
+                        <img src="img/logo.png" alt="logotip">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer-phone">
+                        <span>+7 495 771 05 08</span>
+                        <p> <a href="#">order@gipsolit.ru</a><br>Пн-Пт: с 9:00 до 18:00</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer-dev">
+                        <p>Разработка<br>сайта:</p>
+                        <img src="img/footer_img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- popUp Получить консультацию -->
+
+<div class="popup">
+    <div class="popup-dialog">
+        <div class="popup-content">
+            <button class="popup-close">&times</button>
+            <h3 class="popup-header">Заинтересовало?</h3>
+            <p>Оставьте контактные данные <br>для связи</p>
+            <div class="main-form popup-form">
+                <form class="form" action="#">
+                    <label for="#">Ваше имя</label>
+                    <input class="form-input" type="text">
+                    <label for="#">Номер телефона</label>
+                    <input class="form-input" type="text">
+                    <label for="#">Сообщение</label>
+                    <textarea class="form-input" rows="5"></textarea>
+                    <button class="button form-btn" type="button">Оставьте заявку</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <script src="slick/slick.min.js"></script>
+    
+    <!-- Fotorama from CDNJS, 19 KB -->
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+
+
+    <script>
+        $(document).ready(function(){
+        $('.popup-btn').on('click', function(event) {
+            event.preventDefault();
+            $('.popup').fadeIn();
+        });
+        $('.popup-close').on('click', function(event) {
+            event.preventDefault();
+            $('.popup').fadeOut();
+        });
+
+        /* Слайд с Отзывами */
+        $('.feedback-slider').slick({
+            prevArrow: '<button class="feedback-slider-btn feedback-prev-btn"><img src="img/prevArrow.svg"/></button>',
+            nextArrow: '<button class="feedback-slider-btn feedback-next-btn"><img src="img/nextArrow.svg"/></button>'
+        });
+
+        /* Слайд с преймуществоми */
+        $('.features-slider').slick({
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            responsive: [
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 2,
+                    prevArrow: '<button class="prev arrow"></button>',
+                    nextArrow: '<button class="next arrow"></button>',
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    prevArrow: '<button class="prev arrow"></button>',
+                    nextArrow: '<button class="next arrow"></button>',
+                    slidesToScroll: 1
+                }
+            }
+        ]
+        });
+      });
+    </script>
+</body>
+</html>
